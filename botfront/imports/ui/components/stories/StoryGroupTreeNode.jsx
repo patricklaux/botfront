@@ -121,7 +121,7 @@ const StoryGroupTreeNode = (props) => {
             <Dropdown.Item
                 content={(
                     <>
-                        <StoryPrefix type={fragmentType} fragment={item} />
+                        <StoryPrefix fragment={{ type: fragmentType }} />
                         {title}
                     </>
                 )}
